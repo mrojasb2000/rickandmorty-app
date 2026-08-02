@@ -1,9 +1,12 @@
 import ReactDOM from 'react-dom/client';
+import List from './components/molecules/List.js';
+
 
 function App() {
   return (
     <div>
       <h1>Hello, Rick & Morty!</h1>
+      <List />
     </div>
   );
 }
