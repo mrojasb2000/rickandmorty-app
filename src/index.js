@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client';
-import List from './components/molecules/List.js';
+import List from './components/organisms/List.js';
 
 
 function App() {
