@@ -1,5 +1,4 @@
 function Character(character) {
-  console.log('Character: ', character);
   return (
     <>
       <h3>{character.name}</h3>
