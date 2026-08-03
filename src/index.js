@@ -7,7 +7,9 @@ import './styles.css';
 function App() {
   return (
     <div className="container">
-      <h1>Rick & Morty</h1>
+      <nav className='navbar sticky-top navbar-light bg-dark'>
+        <h1 className='navbar-brand text-light'>Rick & Morty</h1>
+      </nav>
       <List />
     </div>
   );
