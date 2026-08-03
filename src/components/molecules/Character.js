@@ -1,10 +1,12 @@
 function Character(character) {
   return (
-    <>
-      <h3>{character.name}</h3>
-      <img className="rounded-xl" src={character.image} alt={character.name} width="300" height="300" />
-      <p>{`Origin: ${character.origin}`}</p>
-    </>
+    <div className="card" style={{ width: '200px' }}>
+      <img src={character.image} alt={character.name} className="card-img-top" />
+      <div className="card-body">
+        <h5 className="card-title">{character.name}</h5>
+        <p className="card-text">{`Origin: ${character.origin}`}</p>
+      </div>
+    </div>
   );
 }
 
